@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit&display=swap');
+/* shrift */
+
+/* font-family: 'Kanit', sans-serif; */
+/* font-family: 'Anton', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: rgba(255, 146, 146, 0.565); */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.row{
+    height: 100%;
+    margin: 0 120px;
+    overflow: hidden;
+    position: relative;   
+    transition: 0.5s;
+}
+/* navbar  */
+.nav{
+    position: fixed;
+    top: 890px;
+    z-index: 4;
+    left: 550px;
+    background-color: rgba(100, 100, 100, 0.609);
+    border-radius: 10px;
+    width: 780px;
+}
+
+.nav .nav-1{
+    width: 100%;
+    z-index: 2;
+    right: 50px;
+    position: relative;
+}
+nav ul{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* background-color: green; */
+}
+nav ul li{
+    display: inline-block;
+    margin:0 10px;
+    transition: 0.8s;
+    /* background-color: cadetblue; */
+}
+
+.nav-1 ul li a{
+    font-size: 40px;
+    color: rgb(68, 68, 68);
+    transition: 0.5s;
+    font-family: 'Kanit', sans-serif;
+}
+
+.nav-1 .location-icon a{
+    position: relative;
+    left: 100px; 
+    top: 2px;  
+    color: rgb(45, 101, 206);
+    transition: 0.8s;
+}
+
+.bmw-loog{
+    position: relative;
+    left:100px;
+    top: 7px;
+    overflow: hidden;
+}
+.bmw-loog-img {
+    width: 60px;
+    height: 45px;
+    border-radius: 10%;
+    position: relative;
+    top: 1px;
+    transition: 0.8s;
+}
+
+.nav-hover{
+    /* background-color: blue; */
+    position: relative;
+    width: 102%;
+    height: 4px;
+    transition: 0.8s;
+    bottom: 9px;
+    border-radius: 10px;
+}
+/* navbar to hover */
+nav ul li:hover  .nav-hover{
+    background-color: blue;
+    transition: 0.8s;
+}
+
+nav ul li:hover .bmw-loog-img{
+background-color: white;
+transition: 0.8s;
+}
+
+
+.location-icon:hover a{
+ color: black;
+}
+
+/* x7 */
+.row-m4{
+    width: 100%;
+    height: 800px;
+    /* margin-top: 20px; */
+}
+.img-m4{
+    position: relative;
+    margin-top: -50px;
+    z-index: 1;
+}
+.con{
+    width: 100%;
+    height: 756px;
+    z-index: 1;
+    position: relative;
+    /* overflow: hidden; */
+    bottom: 760px;
+}
+.text-m4{
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+}
+
+.text-m4 p{
+    position: relative;
+    left: 150px;
+    top: 200px;
+    font-size: 50px;
+    color: white;
+    transition: 0.8s;
+    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Anton', sans-serif; */
+}
+
+.text-m4 h1{
+    position: relative;
+    top: 500px;
+    left: 40px;
+    color: white;
+    transition: 0.8s;
+    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Anton', sans-serif; */
+}
+
+.text-m4 h2{
+    transition: 0.8s;
+    position: relative;
+    left: 40px;
+    top: 478px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.text-m4 h3{
+    position: relative;
+    top: 410px;
+    left: 390px;
+    font-size: 33px;
+    color: white;
+    transition: 0.8s;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+
+/* navbar under foto x7 */
+.nav-un-foto nav{
+    bottom: 44px;
+    width: 100%;
+    height: 60px;
+}
+
+
+.nav-un-foto nav ul li{
+    position: relative;
+    bottom: 30px;
+    transition: 0.5s;
+}
+
+.nav-un-foto nav ul li h1{
+    font-size: 23px;
+    color: rgb(103, 103, 103);
+    transition: 0.4s;
+    font-family: 'Kanit', sans-serif;
+}
+
+.nav-hover-under{
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 4px;
+    border-radius: 10px;
+    position: relative;
+    top: 6px;
+    transition: 0.5s;
+}
+
+.nav-un-foto nav ul li:hover  .nav-hover-under{
+    background-color: black;
+    
+}
+
+.nav-un-foto nav ul li a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.line-un-nav{
+    background-color: rgb(126, 121, 121);
+    width: 100%;
+    height: 1px;
+    position: relative;
+    bottom: 44px;
+    z-index: 2;
+}
+
+/* text */
+
+.text{
+    /* background-color: rgba(0, 0, 255, 0.281); */
+    height: 500px;
+    transition: 0.5s;
+    margin: 150px 30px;
+}
+
+.text p{
+    font-size: 40px;
+    transition: 0.5s;
+    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Anton', sans-serif; */
+}
+
+.text li:nth-child(-n+6) {
+    font-size: 25px;
+    position: relative;
+    color: black;
+    margin:20px  0px;
+    left: 40px;
+    transition: 0.5s;
+    /* font-family: 'Kanit', sans-serif; */
+    /* font-family: 'Anton', sans-serif; */
+}
+
+.text h1{
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    transition: 0.8s;
+    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Anton', sans-serif; */
+}
+
+.text h2{
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    margin:  20px 10px;
+    transition: 0.8s;
+    font-family: 'Kanit', sans-serif;
+    /* font-family: 'Anton', sans-serif; */
+}
+
+/* m4-img-2 */
+.m4-2{
+    overflow: hidden;
+    position: relative;
+    margin-top: 350px;
+    z-index: 4;
+
+}
+
+.m4-2-img img{
+    width: 100%;
+}
+
+.m4-2-line{
+    width: 90%;
+    height: 6px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    top: 15px;
+    left: 80px;
+}
+
+.m4-2-line-1{
+    width: 90%;
+    height: 6px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    bottom: 20px;
+    left: 80px
+}
+/* card-3 */
+
+.card_3{
+    z-index: 4;
+    position: relative;
+    top: 100px;
+    height: 700px;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-1{
+    width: 400px;
+    height: 500px;
+    transition: 0.8s;
+    z-index: 4;
+    display: inline-block;
+    margin: 0 15px;
+    /* background-color: rgb(160, 155, 155); */
+}
+.card-2{
+    width: 400px;
+    height: 500px;
+    transition: .8s;    
+    z-index: 4;
+    display: inline-block;
+    margin: 0 15px;
+/* background-color: gray; */
+}
+
+.card-3{
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    transition: .8s;
+    z-index: 4;
+    margin: 0 15px;
+    /* background-color: gray; */
+
+}
+.card-1-img img{
+    width: 100%;
+    z-index: 2;
+
+}
+
+.card-1-text{
+    width: 95%;
+    height: 300px;
+    position: relative;
+    left: 20px;
+    z-index:4;
+}
+
+.card-1-text h1{
+    margin: 10px 0px;
+    font-size: 28px;
+    font-family: 'Kanit', sans-serif;
+    z-index: 4;
+}
+
+.card-1-text p{
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    font-family: 'Kanit', sans-serif;
+    z-index: 3;
+}
+
+.card-1-img img{
+    position: relative;    
+    width: 100%;
+}
+
+.card-2-text {
+    width: 95%;
+    height: 100%;
+    position: relative;
+    left: 20px;
+    z-index:4;
+}
+
+.card-2-text h1{
+    margin: 10px 0px;
+    font-size: 28px;
+    font-family: 'Kanit', sans-serif;
+    z-index: 4;
+}
+
+.card-2-text p{
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    font-family: 'Kanit', sans-serif;
+    z-index: 3;
+}
+
+.card-2-img img{
+    position: relative;
+    width: 100%;
+}
+
+.card-3-img img{
+    position: relative;
+    width: 100%;
+}
+
+.card-3-text {
+    width: 95%;
+    height: 100%;
+    position: relative;
+    left: 20px;
+    z-index:4;
+}
+
+.card-3-text h1{
+    margin: 10px 0px;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    z-index: 4;
+}
+
+.card-3-text p{
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    font-family: 'Kanit', sans-serif;
+    z-index: 3;
+}
+/* card-3 hover */
+
+.card-1:hover{
+    transform: scale(1.1);   
+    z-index: 5;
+    box-shadow:   10px  10px  5em gray;
+    transition: 1.5s;
+
+}
+
+.card-2:hover{
+    transform: scale(1.1);    
+    z-index: 5;
+    box-shadow:   10px  10px  5em gray;
+    transition: 1.5s;
+
+}
+
+.card-3:hover{
+    transform: scale(1.1);
+    z-index: 5;
+    box-shadow:   10px  10px  5em gray;
+    transition: 1.5s;
+   
+}
+
+/* end site */
+.end-site{
+    z-index: 4;
+    overflow: hidden;
+    position: relative;
+    top: 250px;
+    width: 100%;
+    background-color: rgb(62, 62, 62);
+    height: 400px;
+}
+
+.tags-3{
+    position: relative;
+    z-index: 4;
+    left: 70px;
+}
+
+.line-end-site{
+    width: 100%;
+    height: 2px;
+    position: relative;
+    top: 55px;
+    z-index: 4;
+    background-color: white;
+}
+
+.end-site h1{
+    position: relative;
+    left: 42%;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    transition: 0.5s;
+    z-index: 4;
+    color: gray;
+    display: inline;
+}
+
+.end-site img{
+    position: relative;
+    top: 20px;
+    left: 43%;
+    width: 8%;
+    transition: 0.5s;
+    z-index: 4;
+    display: inline;
+}
+
+.end-site h2{
+    position: relative;
+    left: 42%;
+    top: 20px;
+    width: 50px;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    transition: 0.5s;
+    z-index: 4;
+    color: gray;
+    /* display: block; */
+}
+
+.icon-instagram a {
+    display: inline-block;
+    font-size: 100px;
+    color: white;
+    position: relative;
+    left: 600px;
+    bottom: 170px;
+    transition: 0.8s;
+    z-index: 4;
+
+}
+.icon-telegram a{
+    display: inline-block;
+    font-size: 90px;
+    color: white;
+    position: relative;
+    left: 1100px;
+    bottom: 280px;
+    transition: 0.8s;
+    z-index: 4;
+
+}
+
+
+
+
+/* hover */
+
+.icon-instagram a:hover{
+    color: rgb(158, 36, 63);
+    animation-name: instagram;
+    animation-duration: 3s;
+    animation-iteration-count: 1 ;
+
+}
+
+.end-site img:hover{
+    transform: scale(1.5);
+    animation-name: logo;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1 ;
+    margin-top: 50px;
+}
+
+.icon-telegram a:hover{
+    color: blue;
+    
+    animation-name: telegram;
+    animation-duration: 3s;
+    animation-iteration-count: 1 ;
+}
+.end-site h1:hover {
+    color: white;
+}
+.end-site .img:hover  h2{
+    color: white;
+    top: 50px;
+}
+
+@keyframes telegram{
+    0% { 
+        transform: rotate(0deg);
+
+    }
+    /* 25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    } */
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes logo{
+    0% { 
+        transform: scale(1);
+    }
+    
+    /* 50%{
+        transform: scale(1.5);
+    } */
+
+    100%{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes instagram{
+    0% { 
+        transform: rotate(360deg);
+
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit&display=swap');
+/* shrift */
+
+/* font-family: 'Kanit', sans-serif; */
+/* font-family: 'Anton', sans-serif; */
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: red; */
+}
+.row{
+    /* background-color: red; */
+    margin: 0 120px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* navbar */
+
+nav{
+    width: 100%;
+    /* background-color: black; */
+    position: relative;
+}
+nav ul{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* background-color: green; */
+}
+nav ul li{
+    display: inline-block;
+    margin:0 10px;
+    transition: 0.8s;
+    /* background-color: cadetblue; */
+}
+
+nav ul li a{
+    font-size: 40px;
+    color: rgb(78, 78, 78);
+    transition: 0.4s;
+    font-family: 'Kanit', sans-serif;
+}
+
+.location-icon a{
+    position: relative;
+    left: 200px;   
+    color: rgb(212, 212, 212);
+    transition: 0.8s;
+}
+
+.bmw-loog{
+    position: relative;
+    left:200px;
+    top: 10px;
+    
+    overflow: hidden;
+}
+.bmw-loog-img {
+    width: 60px;
+    height: 45px;
+    border-radius: 10%;
+    position: relative;
+    top: 1.1px;
+    transition: 0.8s;
+}
+
+.nav-hover{
+    /* background-color: blue; */
+    position: relative;
+    width: 102%;
+    height: 2px;
+    transition: 0.8s;
+
+}
+/* navbar to hover */
+nav ul li:hover  .nav-hover{
+    background-color: blue;
+    transition: 0.8s;
+}
+
+nav ul li:hover a{
+    color: white;
+}
+
+nav ul li:hover .bmw-loog-img{
+background-color: white;
+transition: 0.8s;
+}
+
+.location-icon:hover a{
+ color: black;
+}
+
+.nav-line{
+    z-index: 2;
+    width: 882px;
+    height: 2px;
+    margin-top: 1px;
+    margin-left: 520px;
+    background-color: rgb(118, 118, 118);
+    position: relative;
+}
+
+/* row-x7 */
+
+.row-x7{
+    margin-top: -50px;
+    width: 100%;
+    height: 760px;
+    overflow: hidden;
+
+}
+.img-x7 img{
+    width: 100%;
+    height: 100%;
+    
+}
+/* button and text */
+.text-x7{
+    display: inline-block;
+    position: relative;
+    bottom: 500px;
+    left: 150px;
+}
+
+.text-x7 p{
+    color: white;
+    font-size: 50px;
+    transition: 0.8s;
+    position: relative;
+    font-family: 'Anton', sans-serif;
+}
+
+.text-x7 .btn-x7{
+    width: 270px;
+    height: 50px;
+    position: relative;
+    border: solid 2px rgb(81, 81, 254); 
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    transition: 0.8s;
+    font-family: 'Kanit', sans-serif;
+}
+
+.btn-x7:hover { 
+   background-color: rgba(255, 255, 255, 0.209);
+   color: rgb(50, 50, 50);
+
+}
+
+/* car M4 */
+.row-m4-xm{
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-m4-xm{
+    display: inline-block;
+    
+}
+
+.img-m4-xm img{
+    display: inline-block;
+    width: 49.88%;
+}
+.text-m4 {
+    position: relative;
+    bottom: 320px;
+    left: 40px;
+    font-size: 10px;
+}
+
+.text-m4 img{
+    width: 7%;
+    position: relative;
+
+}
+
+.text-m4 p{
+    font-size: 47px;
+    color: white;
+    position: relative;
+    bottom: 58px;
+    left: 120px;
+    font-family: 'Anton', sans-serif;
+    transition: 0.8s;
+}
+
+.text-m4 .btn{
+    position: relative;
+    bottom: 60px;
+    width: 259px;
+    height: 50px;
+    border: solid 4px rgb(0, 63, 9);
+    background-color: rgba(255, 255, 255, 0);
+    transition: 0.8s;
+
+}
+
+.text-m4 .btn a{
+    color: white;
+    transition: 0.8s;
+}
+.btn:hover {
+ background-color:rgba(255, 255, 255, 0.162) ;
+}
+
+/* car Xm  */
+.text-xm{
+    position: relative;
+    bottom: 388px;
+    left: 900px;
+}
+.btn {
+    position: relative;
+    bottom: 112px;
+    width: 200px;
+    height: 50px;
+    border: solid 4px rgb(3, 78, 94);
+    background-color: rgba(255, 255, 255, 0);
+    transition: 0.8s;
+}
+
+.text-xm p{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    bottom: 110px;
+    font-size: 47px;
+}
+
+.text-xm .btn a{
+    color: white;
+    transition: 0.8s;
+}
+
+
+
+
+
+/* end site */
+.end-site{
+    z-index: 4;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-color: rgb(81, 81, 81);
+    height: 400px;
+
+}
+
+.tags-3{
+    position: relative;
+    z-index: 4;
+    left: 70px;
+}
+
+
+.end-site h1{
+    position: relative;
+    left: 42%;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    transition: 0.5s;
+    z-index: 4;
+    color: gray;
+    display: inline;
+}
+
+.end-site img{
+    position: relative;
+    top: 20px;
+    left: 43%;
+    width: 8%;
+    transition: 0.5s;
+    z-index: 4;
+    display: inline;
+}
+
+.end-site h2{
+    position: relative;
+    left: 42%;
+    top: 20px;
+    width: 50px;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    transition: 0.5s;
+    z-index: 4;
+    color: gray;
+    /* display: block; */
+}
+
+.icon-instagram a {
+    display: inline-block;
+    font-size: 100px;
+    color: white;
+    position: relative;
+    left: 600px;
+    bottom: 170px;
+    transition: 0.8s;
+    z-index: 4;
+
+}
+.icon-telegram a{
+    display: inline-block;
+    font-size: 90px;
+    color: white;
+    position: relative;
+    left: 1100px;
+    bottom: 280px;
+    transition: 0.8s;
+    z-index: 4;
+
+}
+
+
+
+/* hover */
+
+.icon-instagram a:hover{
+    color: rgb(158, 36, 63);
+    animation-name: instagram;
+    animation-duration: 3s;
+    animation-iteration-count: 1 ;
+
+}
+
+.end-site img:hover{
+    transform: scale(1.5);
+    animation-name: logo;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1 ;
+    margin-top: 50px;
+}
+
+.icon-telegram a:hover{
+    color: blue;
+    animation-name: telegram;
+    animation-duration: 3s;
+    animation-iteration-count: 1 ;
+}
+.end-site h1:hover {
+    color: white;
+}
+.end-site .img:hover  h2{
+    color: white;
+    top: 50px;
+}
+
+@keyframes telegram{
+    0% { 
+        transform: rotate(0deg);
+
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes logo{
+    0% { 
+        transform: scale(1);
+    }
+    
+
+
+    100%{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes instagram{
+    0% { 
+        transform: rotate(360deg);
+
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
